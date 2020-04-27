@@ -1,6 +1,6 @@
 ---
 title: "GF-0604 Procesamiento de datos geográficos<br>Laboratorio 02: R - Graficación básica"
-author: "Manuel Vargas"
+author: "Natalia Martinez"
 date: "2020-04-20"
 output:
   html_document:
@@ -57,7 +57,7 @@ print(ca_covid19)
 2. (10%) Genere un resumen de los datos con la función  ```summary() ```.
 
 ```{r}
-
+summary(ca_covid19)
 ```
 
 3. (10%) Con la función ```barplot()```, genere un gráfico de barras de los casos confirmados.
